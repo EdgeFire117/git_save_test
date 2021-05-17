@@ -6,5 +6,34 @@ git init
 -Проверка состояния
 git status
 -Создания Commit(Сохраненния)
-git commit -m "One Commit"
+git commit -m "1 commit"
 
+
+-git add . (точка добавить все. index.html добавить только этот файл)
+
+//Внесение изменений
+git add . 
+git commit -m "commit"
+git status
+
+//Добавление пула
+git remote add origin https://github.com/EdgeFire117/git_save_test.git
+//обновление пула
+git remote add https://github.com/EdgeFire117/git_save_test.git
+//удаление пула
+git remote remove <name>
+//Узнать пул
+git remote -v
+//Залить
+git push -u origin <Имя>
+
+//Скачать репозиторий
+git clone <ссылка>
+//Узнать активную ветку
+git branch
+//Создать ветки
+git checkout -b <имя>
+//Смена ветки
+git checkout <названеи ветки>
+//Скопировать из другой ветки
+git merge <имя ветки>
