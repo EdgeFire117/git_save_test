@@ -39,3 +39,9 @@ git checkout <названеи ветки>
 git merge <имя ветки>
 //изменение файла
 nano <Имя.txt>
+
+
+Test Value
+Test Value-3
+Test_34
+
