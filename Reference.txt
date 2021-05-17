@@ -12,9 +12,10 @@ git commit -m "1 commit"
 -git add . (точка добавить все. index.html добавить только этот файл)
 
 //Внесение изменений
-git add . 
-git commit -m "commit"
-git status
+git add . //ПОдготовка к сохранению
+git commit -m "commit"//Нужно для сохранения
+git status //Проверка данных
+git log //Лог
 
 //Добавление пула
 git remote add origin https://github.com/EdgeFire117/git_save_test.git
@@ -44,4 +45,3 @@ nano <Имя.txt>
 Test Value
 Test Value-3
 Test_34
-
