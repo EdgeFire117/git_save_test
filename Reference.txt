@@ -1,0 +1,8 @@
+
+Инициализация
+cd D:/Com/Unity/GitHub/SimpleProject/Git_Test
+-
+git init
+-
+git status
+
