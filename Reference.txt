@@ -12,9 +12,10 @@ git commit -m "1 commit"
 -git add . (точка добавить все. index.html добавить только этот файл)
 
 //Внесение изменений
-git add . 
-git commit -m "commit"
-git status
+git add . //ПОдготовка к сохранению
+git commit -m "commit"//Нужно для сохранения
+git status //Проверка данных
+git log //Лог
 
 //Добавление пула
 git remote add origin https://github.com/EdgeFire117/git_save_test.git
@@ -37,3 +38,5 @@ git checkout -b <имя>
 git checkout <названеи ветки>
 //Скопировать из другой ветки
 git merge <имя ветки>
+//изменение файла
+nano <Имя.txt>
