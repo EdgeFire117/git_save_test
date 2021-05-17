@@ -1,8 +1,10 @@
 
-Инициализация
+Инициализация(Обяз)
 cd D:/Com/Unity/GitHub/SimpleProject/Git_Test
--
+-Установка главное репозитория(Обяз)
 git init
--
+-Проверка состояния
 git status
+-Создания Commit(Сохраненния)
+git commit -m "One Commit"
 
