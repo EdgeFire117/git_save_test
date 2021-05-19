@@ -30,11 +30,17 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private AudioClip m_LandSound;
 
     float timer;
-    flot vs;
+    float vs;
+    float rex;
+    float dev;
+    float fox;
+
     void Awake()
     {
         string String_Awake = GameObject.Find("Canvas").GetComponent<Text>().text = "717";
         float float_Awake = 914;
+        vs = 10;
+        dev = 20;
     }
 
     void Start()
@@ -50,7 +56,8 @@ public class FirstPersonController : MonoBehaviour
         {
         timer = 0;
         timer = 10;
-        }
+        dev = 47
+}
     }
 
 }
