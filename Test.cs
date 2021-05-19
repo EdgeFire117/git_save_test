@@ -40,13 +40,13 @@ public class FirstPersonController : MonoBehaviour
         string String_Awake = GameObject.Find("Canvas").GetComponent<Text>().text = "717";
         float float_Awake = 914;
         vs = 10;
-        dev = 20;
+        //dev = 20;
     }
 
     void Start()
     {
         float start = 515;
-        start = 721;
+        //start = 721;
     }
 
     void Update
@@ -55,8 +55,8 @@ public class FirstPersonController : MonoBehaviour
         if(timer > 10)
         {
         timer = 0;
-        timer = 10;
-        dev = 47
+        //timer = 10;
+        //dev = 47
 }
     }
 
